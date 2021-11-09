@@ -20,7 +20,7 @@ export default function Form(props){
     }
 
     return(
-        <form className="form-container" onClick={onSubmit}>
+        <form className="form-container" onSubmit={onSubmit}>
             <div className="form-inputs">
                 <label>
                    Name
@@ -54,7 +54,7 @@ export default function Form(props){
                 </label>
 
                 <div className='submit'>
-                    <button disabled={!values.username || !values.email || !values.role}>submit</button>
+                    <button disabled={!values.name || !values.email || !values.role}>submit</button>
                 </div>
             </div>
         </form>

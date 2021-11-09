@@ -19,7 +19,7 @@ function App() {
   }
   const submitForm = () =>{
     const newTeam = {
-      username: formValues.name.trim(),
+      name: formValues.name.trim(),
       email: formValues.email.trim(),
       role: formValues.role
     }
@@ -36,7 +36,7 @@ function App() {
         submit={submitForm}
       />
       {
-        Team.map(team => {
+        teams.map(team => {
           return (
             <Team key={team.id} details={team} />
           )
