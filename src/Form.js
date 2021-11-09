@@ -49,7 +49,7 @@ export default function Form(props){
                         <option value="">--Select a Role--</option>
                         <option value="Backend">Backend Engineer</option>
                         <option value="Frontend">Frontend Engineer</option>
-                        <option value="designer">UX/UI Designer</option>
+                        <option value="UX/UI Designer">UX/UI Designer</option>
                     </select> 
                 </label>
 
